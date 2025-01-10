@@ -21,7 +21,7 @@ export default function Contactos() {
         <div id="infoTrjerta">
         <h1>Contactado</h1>
 
-          <img src="/public/NevermindGato.jpg" alt="gato" id="GatoXd" />
+          <img src="/NevermindGato.jpg" alt="gato" id="GatoXd" />
 
           <div id="info">
 
