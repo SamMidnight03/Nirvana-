@@ -6,6 +6,7 @@
     color: #ffffff;
     font-family: "Caveat", serif;
     text-decoration: none;
+    font-size: 1.2rem;
 }
 
 body{
@@ -126,7 +127,9 @@ form label{
 }
 
 form input{
-    color: #202020;
+    color: #202020;    
+    max-width: 200px;
+    width: 100vw;
 }
 
 form textarea{
@@ -160,4 +163,53 @@ form .nirvana{
     width: 100vw;
     height: 100vh;
     padding: 10px;
+}
+
+#Tarjeta{
+    display: flex;
+    justify-content: center;
+}
+
+#Tarjeta #infoTrjerta{
+    background-color: #202020;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    padding: 20px 0;
+    border-radius: 20px;
+    max-width: 400px;
+    width: 100vw;
+}
+
+#Tarjeta #info{
+    text-align: center;
+}
+
+
+#Tarjeta img{
+    border-radius: 18px;
+    max-height: 300px;
+    max-width: 300px;
+    width: 100vw;
+    height: 100vh;
+    padding: 10px;
+}
+
+#Tarjeta input{
+    color: #404040;
+    background-color: #bababa;
+    padding: 5px;
+    border-radius: 5px;
+    outline: none;
+}
+
+#Tarjeta input:hover{
+    color: #bababa;
+    background-color: #404040;
+    transition: .2s ease-out;
+} 
+
+#Tarjeta h1{
+    color: yellow;
 }

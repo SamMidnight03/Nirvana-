@@ -17,15 +17,22 @@ export default function Contactos() {
   if (completado == true) {
     return (
       <div id="Tarjeta">
+
+        <div id="infoTrjerta">
         <h1>Contactado</h1>
-        <div>
-          <img src="/gatoxd.jpg" alt="gato" id="GatoXd" />
+
+          <img src="/public/NevermindGato.jpg" alt="gato" id="GatoXd" />
+
           <div id="info">
+
             <p>
               Nombre: {nombre} {apellido}
             </p>
+
             <p>Correo: {correo}</p>
+
             <p>Mensaje: {mensaje}</p>
+
             <input
               type="submit"
               value="Back"
@@ -34,7 +41,9 @@ export default function Contactos() {
               }}
             />
           </div>
+
         </div>
+
       </div>
     );
   }
@@ -42,7 +51,7 @@ export default function Contactos() {
   return (
     <>
       <form onSubmit={onSubmit}>
-        
+
         <div className="contacto">
 
           <div className="formulario">
